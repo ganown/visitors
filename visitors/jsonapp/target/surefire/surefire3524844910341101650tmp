@@ -1,0 +1,5 @@
+#surefire
+#Sun Feb 25 01:18:50 UTC 2018
+user.dir=/usr/local/tomcat/json-app
+localRepository=/root/.m2/repository
+basedir=/usr/local/tomcat/json-app
