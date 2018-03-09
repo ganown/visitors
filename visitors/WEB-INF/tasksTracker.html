@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<HTML ng-app="myTasks">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="script/Tasks.js"></Script>
+  </head>
+<Body>
+<Div ng-controller="myController">
+Before the loop
+   <table>
+       <ul>
+          <li ng-repeat="task in tasks">
+             Maintask: 
+             {{task.maintasks}}
+             <BR>
+                <table">
+                   <ul>
+                      <li ng-repeat="subtask in task.subtasks">
+                         Subtask: 
+                         {{subtask.todo}};
+                         <BR>
+                      </li>
+                   </ul>
+                </table>
+          </li>
+       </ul>
+   </table>
+</Div>
+</Body>
+</HTML>

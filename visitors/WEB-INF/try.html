@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<HTML ng-app="myFirstApp">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="script/Simple.js"></Script>
+  </head>
+<Body>
+Test to see how it work(s)
+<Div ng-controller="myController">
+   <input type="text" ng-model="employee.firstname"/>
+   <input type="text" ng-model="employee.lastname"/>
+   <input type="text" ng-model="employee.sex"/>
+   {{employee.firstname}}
+   {{employee.lastname}}
+   {{employee.sex}}
+   <IMG ng-src="{{employee.countryflag}}"
+        style="height:100px; width:200px" /> 
+</Div>
+</Body>
+</HTML>
